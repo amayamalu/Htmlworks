@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#id_first{
+    color: yellow;
+    text-align: left;
+    text-decoration: none;
+
+}
+.brand{
+    color:red;
+}

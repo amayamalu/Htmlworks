@@ -1,0 +1,55 @@
+.parent{
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.child{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.child:nth-child(1){
+    background-color: red;
+
+}
+
+.child:nth-child(2){
+    background-color: blue;
+
+}
+
+.child:nth-child(3){
+    background-color: brown;
+}
+.parent1{
+    width: 80%;
+    height: 300px;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.ch{
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 50px;
+}
+
+.ch:nth-child(1){
+    background-color: blue;
+}
+
+.ch:nth-child(2){
+    background-color: brown;
+}

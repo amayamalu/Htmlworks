@@ -1,0 +1,82 @@
+.resume{
+    margin: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 700px;
+    margin-top: -10px;
+    margin-left: -10px;
+
+}
+.left{
+    background-color: blueviolet;
+    width: 400px;
+}
+
+.right{
+    background-color: white;
+}
+
+.left h1{
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+}
+
+.left p{
+    margin-left: 100px;
+    color: white;
+    margin-top: -10px;
+    margin-left: 115px;
+    line-height: 10px;
+
+}
+
+img{
+    border-radius: 50%;
+    width: 50%;
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.icon {
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.icon i{
+    margin-left: 15px;
+
+}
+
+.content p{
+    margin-left: 115px;
+    margin-top: 40px;
+    line-height: 10px;
+}
+
+.right{
+    margin-left: 10px;
+}
+.body-about h2{ 
+    color: red;
+    margin-top: 50px;
+}
+
+.body-about p{
+    color: black;
+    line-height: 40px;
+}
+
+.body-details p{
+    margin-top: 50px;
+    line-height: 1px;
+}
+
+.body-bottom p{
+    margin-top: 130px;
+}
