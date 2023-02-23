@@ -1,0 +1,51 @@
+.container{
+    background-color: white;
+    
+}
+
+.head{
+    background-color: lightskyblue;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+
+.first{
+    background-color: lightskyblue;
+    width: 500px;
+    height: 100px;
+    margin-top: 50px;
+
+}
+
+.second{
+    background-color: lightskyblue;
+    width: 500px;
+    height: 100px;
+    margin-top:70px ;
+}
+
+.third{
+    background-color: lightskyblue;
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    margin-top: 60px;
+    
+    
+}
+
+/* @media screen and (max-width:750px){
+    .container{
+        width: 100%;
+        background-color: brown;
+    }
+} */
+
+@media  (max-width:750px){
+    .container{
+        width: 80%;
+        margin: auto;
+        margin-top: 5px;
+    }
+}

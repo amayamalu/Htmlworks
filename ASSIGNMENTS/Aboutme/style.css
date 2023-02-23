@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+}
+.container{
+    border: 1px solid black;
+    width: 60%;
+    height: 550px;
+    margin-top: 20px;
+    margin: auto;
+    border: 3px solid black;
+    display:grid;
+     grid-template-columns: 1fr 2fr;
+     grid-template-rows: 550px;
+    margin-top: 40px;
+    
+}
+.left{
+    background-color: #7a48f0;
+}
+.right{
+    background-color: white;
+}
+.child h3{
+    color: #f04878;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+ul{
+    list-style: none;
+    line-height: 35px;
+    
+}
+p{
+    line-height:25px;
+    padding: 0;
+}
+.list-item{
+    margin-top:25px;
+    margin-left: 10px;
+   
+}
+.paragraph{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.first-item{
+    color: white;
+    line-height: 10px;
+    margin-top:50px;
+    margin-left:50px;
+}
+
+.fa-brands {
+    color: white;
+}
+.icon{
+    margin-left: 20px;
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 30px;
+
+}
+.last-item{
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+}
+img{
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 30px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.footer{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.per{
+    margin-left: 100px;
+}
+
+.illus{
+    margin-left: 30px;
+}
+
+.perc{
+    margin-left: 100px;
+}
+@media (max-width:750px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
